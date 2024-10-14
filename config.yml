@@ -1,0 +1,63 @@
+# Can be "smart" or "fast". Default is fast
+llm_chain:
+  default: "fast"  
+
+#Re-ranking module enable or disable config
+reranking:
+  enabled: false  # Set to true to enable re-ranking
+  method: "standard"
+  model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k: 10
+
+#initial document retrieval config
+retrieval:
+  initial_k: 20
+
+# File extension for data loading
+file_extension: "**/*.java"
+
+# Document processing
+chunk_size: 1000
+chunk_overlap: 200
+
+# Tree of thoughts depth. default is 3
+n_ideas : 3
+
+# LLM Configuration
+llm:
+  model: "qwen2.5:latest"
+  num_ctx: 8048
+  temperature: 0.4
+  top_p: 0.9
+
+# RAG Configuration
+max_iterations: 3
+
+# Prompt Template - Do not modify below {chat_history}, {context} and {question} syntax below prompt
+prompt_template: |
+  You are a security-focused software engineer reviews the code and expert in coding knowledge. You will be provided with code snippets and a specific question. Your goal is to analyze the code thoroughly and provide a detailed assessment by adhering the specified query:
+  
+  Follow below Instructions strictly:
+  Do not make any assumption and examples, Always follow and check the fact and context references before answering the questions.
+
+  Contextual Awareness: Utilize the provided chat history and code context to understand the purpose and environment of the code snippet.
+
+  Always Say "I need more information" if you need any additional context and if you can't find anything just mention "cannot find" or "I couldn't find" in response.
+
+  **Provide a detailed and comprehensive answer. Format your answer in Markdown, using headings, bullet points, and code blocks where appropriate.**
+
+  Chat History:
+  {chat_history}
+
+  Context:
+  {context}
+
+  Question:
+  {question}
+
+  Answer:
+
+
+vector_store:
+  persist_directory: './qdrant_data'
+  collection_name: 'contexi_collection'
