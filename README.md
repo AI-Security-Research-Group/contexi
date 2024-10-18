@@ -27,13 +27,12 @@ techniques to provide the most relevant context-aware responses to questions abo
 
 
 ## Web UI <img src="https://www.svgrepo.com/show/343850/blog-seo-optimization-search.svg" width="25"> 
-<img width="850" alt="Screenshot 2024-10-01 at 11 34 06 PM" src="https://github.com/user-attachments/assets/58598159-7c11-40ef-895e-0b44a2eef50e">
+<img width="850" alt="Screenshot 2024-10-01 at 11 34 06 PM" src="https://github.com/user-attachments/assets/110c4558-84b5-43cd-bf01-869f8c30ecfd">
 
 
 ## How it works? <img src="https://www.svgrepo.com/show/530592/creativity.svg" width="20"> 
 
 🚀 [Get started with Wiki](https://github.com/AI-Security-Research-Group/Contexi/wiki) <br>
-<img src="https://www.svgrepo.com/show/533373/diagram-subtask.svg" width="15"> [Sequence Diagram](https://github.com/user-attachments/assets/b7c32d6a-c825-4058-a651-33075b7c541c) 
 
 
 ## Pre-requisites <img src="https://www.svgrepo.com/show/530571/conversation.svg" width="25"> 
