@@ -14,7 +14,7 @@ Contexi uses: <br>
 - Self-Critique & Self-Corrective using [Chain-of-Thoughts](https://arxiv.org/abs/2201.11903) <br>
 - Document [Re-Ranking](https://developer.nvidia.com/blog/enhancing-rag-pipelines-with-re-ranking/)
 
-techniques to provide the most relevant context-aware responses to questions about your data. 
+techniques to provide the most relevant context-aware responses to questions about your code/data. 
 
 
 ## Key Features <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">
