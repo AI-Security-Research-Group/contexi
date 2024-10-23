@@ -2,7 +2,7 @@
 <table align="center">
 <tr>
 <td>
-Contexi let you interact with entire codebase as code review co-pilot using a local LLM on your system.
+Contexi lets you interact with your entire codebase as a code review co-pilot, using a local LLM on your system.
 </td>
 </tr>
 </table>
