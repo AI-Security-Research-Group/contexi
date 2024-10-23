@@ -2,7 +2,7 @@
 <table align="center">
 <tr>
 <td>
-Contexi let you interact with entire codebase or data with context using a local LLM on your system.
+Contexi let you interact with entire codebase as code review co-pilot using a local LLM on your system.
 </td>
 </tr>
 </table>
